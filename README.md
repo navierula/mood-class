@@ -11,7 +11,7 @@ The training data that I used for classifier came from the [CREMA-D](https://git
 
 2. Download [pyAudioAnalysis](https://github.com/tyiannak/pyAudioAnalysis) onto your own computer and place it into the pyAudioAnalysis folder within the AudioClassification folder.
 
-3. Update the path in your bashrc file to point towards pyAudio Analysis. Mine looks like this: `export PYTHONPATH=$PYTHONPATH:"/Users/navrajnarula/Desktop/audioClassification/pyAudioAnalysis"`
+3. Update the path in your bashrc file to point towards pyAudio Analysis. Mine looks like this: `export PYTHONPATH=$PYTHONPATH:"/Users/navrajnarula/Desktop/audioClassification/pyAudioAnalysis`
 
 4. Update the specifications in your terminal. I would do this:
 `source ~/.bashrc`
