@@ -118,10 +118,13 @@ python testClassifierModel.py happiness_test.wav
 ```
 Passing in an untrained angry file to `mood-class` returns the probability for which class my file would fall into:
 
+```
 classNames is ['disgust', 'fear', 'happiness']
 P is [0.01042657 0.04208108 0.94749235]
 result is 2.0
 
 File: happiness_test.mp3 is in category: happiness, with probability:  0.94749235
+```
+
 
 <b> This project is authored and maintained by Navie Narula. New contributors and pull requests are welcome!</b>
