@@ -11,7 +11,7 @@ Have a speech utterance you'd like to know the overall tone of? Read on to learn
 
 ## Getting Started
 
-These next set of instructions will help you get a copy of mood-class and its corresponding requirements installed on your local machine.
+These next set of instructions will help you get a copy of <i>mood-class</i> and its corresponding requirements installed on your local machine.
 
 ### Prerequisites
 
@@ -92,7 +92,7 @@ Note that pyAudioAnalysis will work on both `.mp3` and `.wav` files. My training
 
 ### Train Data
 
-`mood-class` currently uses an SVM model in this example, but if you prefer to use another one, check out [pyAudioAnalysis](https://github.com/tyiannak/pyAudioAnalysis) for varying models it may support. To train `mood-class` on your training data, simply run this command:
+<i>mood-class</i> currently uses an [SVM](https://en.wikipedia.org/wiki/Support_vector_machine) model in this example, but if you prefer to use another one, check out [pyAudioAnalysis](https://github.com/tyiannak/pyAudioAnalysis) for varying models it may support. To train <i>mood-class</i> on your training data, simply run this command:
 
 ```
 python createClassifierModel.py trainingData
@@ -111,12 +111,12 @@ The above displays the matrix for disgust, fear, and happiness.
 
 ### Testing Data
 
-`mood-class` will categorize any audio file into any of your labeled dataset. 
+<i>mood-class</i> will categorize any audio file into any class of your labeled dataset. 
 
 ```
 python testClassifierModel.py happiness_test.wav
 ```
-Passing in an untrained angry file to `mood-class` returns the probability for which class my file would fall into:
+Passing in an untrained happy file to <i>mood-class</i> returns the probability for which class the file would fall into:
 
 ```
 classNames is ['disgust', 'fear', 'happiness']
@@ -126,5 +126,6 @@ result is 2.0
 File: happiness_test.wav is in category: happiness, with probability:  0.94749235
 ```
 
+## Maintenance
 
-<b> This project is authored and maintained by Navie Narula. New contributors and pull requests are welcome!</b>
+This project is authored and maintained by Navie Narula. <i>mood-class</i> works in beta, but is still a work in progress. New contributors, pull requests, and issues are always welcome.
