@@ -9,7 +9,7 @@ pydub.AudioSegment.converter = r"/Users/navrajnarula/Desktop/ffmpeg"
 script, dirname = argv
 
 subdirectories = os.listdir(dirname)
-subdirectories.pop(0)
+#subdirectories.pop(0)
 
 subdirectories = [dirname + "/" + subDirName for subDirName in subdirectories]
 
